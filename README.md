@@ -1,47 +1,43 @@
-# Projeto de Classes em Dart
+# Projeto de Classes e Objetos em Dart
 
-Este projeto contém a implementação de várias classes em Dart para treinar conceitos como encapsulamento, construtores, getters e setters.
+Este projeto implementa um sistema interativo baseado em classes e objetos em Dart. O usuário pode escolher entre diferentes opções para manipular entidades como Pessoa, Carro, Conta Bancária, Aluno, Produto e Funcionário.
 
-## 📌 Classes Implementadas
+## Funcionalidades
 
-### 1. Pessoa
-- Armazena nome e idade.
-- Permite definir e obter a idade.
-- Exibe os dados da pessoa.
+- **Pessoa**: Solicita nome e idade do usuário e exibe os dados.
+- **Carro**: Registra marca, modelo e preço do carro, exibindo as informações.
+- **Conta Bancária**: Permite depósitos, saques e consulta de saldo.
+- **Aluno**: Calcula a média das notas e informa se o aluno está aprovado.
+- **Produto**: Aplica descontos e exibe preços com e sem desconto.
+- **Funcionário**: Calcula aumento salarial com base em um percentual informado.
 
-### 2. Carro
-- Contém marca, modelo e preço.
-- Usa um getter e setter para o preço.
-- Exibe detalhes do carro.
+## Como Executar
 
-### 3. Conta Bancária
-- Gerencia um titular e saldo.
-- Métodos para depósito e saque.
-- Getter para o saldo.
+1. Certifique-se de ter o Dart instalado.
+2. Salve o código em um arquivo `main.dart`.
+3. Execute o seguinte comando no terminal:
+   ```sh
+   dart main.dart
+   ```
+4. Escolha uma opção no menu interativo e siga as instruções na tela.
 
-### 4. Aluno
-- Guarda nome e notas.
-- Método para calcular a média.
-- Verifica se o aluno está aprovado.
+## Tecnologias Utilizadas
+- **Dart**
+- **Entrada e saída padrão (stdin, stdout)**
+- **Paradigma de Programação Orientada a Objetos (POO)**
 
-## 🎯 Como Testar
+## Estrutura do Código
 
-Execute o código no terminal e siga as instruções para inserir os dados de cada classe. Você verá as saídas geradas pelos métodos.
+O código segue o modelo de Programação Orientada a Objetos (POO) e contém as seguintes classes:
 
-## 🚀 Tecnologias Utilizadas
-- Dart
-- Entrada e saída de dados via terminal
+- `Pessoa`
+- `Carro`
+- `ContaBancaria`
+- `Aluno`
+- `Produto`
+- `Funcionario`
 
-## 📂 Estrutura do Projeto
-```
-/ projeto_dart
-  ├── main.dart  # Arquivo principal
-  ├── pessoa.dart
-  ├── carro.dart
-  ├── conta_bancaria.dart
-  ├── aluno.dart
-  ├── README.md  # Documentação
-```
+Cada classe encapsula atributos e métodos específicos, garantindo modularidade e reutilização do código.
 
-## 🔗 Autor
-[Andreh Malheiros](https://github.com/Andreh-Malheiros)
+## Autor
+Desenvolvido por _*Andreh Malheiros*_.
